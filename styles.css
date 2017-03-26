@@ -70,20 +70,42 @@ body{
     width: 90%;
   }
 
-@media screen and (max width:550px) {
+  .services{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    height: 388px;
+    color: #666d89;
+  }
 
-    .logo{
-      float: none;
-      margin-top: 0px;
-      text-align: center;
-      padding-top: 15px
-    }
+  .s-header{
+    float: left;
+    margin-top: 60px;
+    font-size: 1.5rem;
+    width: 185px;
+    font-weight: bold;
+}
 
-    .links{
-      float: none;
-      margin-top: 15px;
-      margin-left: auto;
-      margin-right: auto;
-      color: #4b4e61;
-      }
+.s-body{
+  float: left;
+  width: 952px;
+  margin-top: 30px;
+  color: #878da9;
+  font-size: 1rem;
+}
+
+.s-nav{
+  margin-top: 45px;
+  float: left;
+  overflow: hidden;
+}
+
+
+.bold{
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 0px;
+}
+
+.ul{list-style-type: none;
 }
